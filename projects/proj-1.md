@@ -7,4 +7,4 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 
 ---
 
-<iframe src="/assets/graph.html" width="200%" height="500px"></iframe>
+<iframe src="/assets/graph.html" width="250%" height="500px"></iframe>
