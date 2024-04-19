@@ -7,4 +7,4 @@ Google Earth Engine을 활용해서 서울시의 NDVI 지도와 지수를 산출
 
 ---
 
-<iframe src="/assets/graph.html" width="150%" height="500px"></iframe>
+<iframe src="/assets/graph.html" width="110%" height="500px"></iframe>
