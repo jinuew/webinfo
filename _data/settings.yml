@@ -21,11 +21,10 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/lenpaul'}
-- {icon: 'linkedin',  link: 'https://linkedin.com/in/lenpaul'}
-- {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'instagram', link: 'https://www.instagram.com/jinuew/'}
+- {icon: 'github',    link: 'https://github.com/jinuew'}
+- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/%EC%A7%84%EC%9A%B0-%EB%B0%95-2240b3292/'}
+- {icon: 'envelope',  link: 'mailto:mailto:p_jinwoo98@naver.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
