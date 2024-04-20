@@ -1,9 +1,9 @@
----
-layout: post
-title: 'Graph 1'
----
+# Segmentation
+Computer Vision 기술을 활용한 Image Segmentation<br>
+식생 세그멘테이션 수행을 통한 사람의 시야각에서 보이는 식생의 비율 산<br>
 
-<iframe src="/assets/imageseg.html" width="100%" height="500px"></iframe>
-캠퍼스 NDVI<br>
-GEE, QGIS 활용<br>
-chart.js를 활용한 웹그래프 제작
+### Campus NDVI Analysis
+[View NDVI Chart](https://jinuew.github.io/webinfo/assets/imageseg.html) 
+
+### Analysis Details
+[View Example Code](https://github.com/jinuew/webinfo/blob/main/assets/NDVI그래프.ipynb)
