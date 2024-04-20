@@ -1,8 +1,11 @@
 ---
 layout: post
-title: 'Project Two'
+title: 'Graph 2'
 ---
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+<iframe src="/assets/imageseg.html" width="120%" height="470px"></iframe>
+<br>
+이미지 딥러닝 중 세그멘테이션 기술을 활용<br>
+해서 사람의 시야각에서 식생의 비율 계산<br>
+세그멘테이션 지수를 평균하여 막대그래프로 제시<br>
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
