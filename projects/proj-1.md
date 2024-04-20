@@ -1,9 +1,9 @@
----
-layout: post
-title: 'Graph 1'
----
+## Campus NDVI Analysis
 
-<iframe src="/assets/ndvi.html" width="100%" height="500px"></iframe>
-캠퍼스 NDVI<br>
-GEE, QGIS 활용<br>
-chart.js를 활용한 웹그래프 제작
+We have conducted an analysis of the Normalized Difference Vegetation Index (NDVI) across various campuses. Below is a dynamic graph showing our findings.
+
+[View NDVI Chart](https://jinuew.github.io/webinfo/assets/ndvi.html) (Click to view the interactive chart)
+
+### Analysis Details
+
+Here you can continue with more details or discussion about the data presented in the graph.
