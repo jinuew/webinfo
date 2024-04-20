@@ -1,5 +1,5 @@
 ---
 layout: process
 title: Process
-permalink: /process
+permalink: /blog
 ---
