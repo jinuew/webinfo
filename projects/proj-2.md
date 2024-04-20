@@ -1,13 +1,9 @@
 ---
-caption: #what displays in the portfolio grid:
-  title: A. Museum Map
-  subtitle: the distribution of museum attractions
-  thumbnail: assets/img/team/museum.png
-  
-#what displays when the item is clicked:
-title: Museum Map
-
-
+layout: post
+title: 'Graph 1'
 ---
 
 <iframe src="/assets/imageseg.html" width="100%" height="500px"></iframe>
+캠퍼스 NDVI<br>
+GEE, QGIS 활용<br>
+chart.js를 활용한 웹그래프 제작
