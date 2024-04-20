@@ -6,4 +6,4 @@ Computer Vision 기술을 활용한 Image Segmentation<br>
 [View NDVI Chart](https://jinuew.github.io/webinfo/assets/imageseg.html) 
 
 ### Analysis Details
-[View Example Code](https://github.com/jinuew/webinfo/blob/main/assets/NDVI그래프.ipynb)
+[View Example Code](https://github.com/jinuew/webinfo/blob/main/assets/경희대.ipynb)
