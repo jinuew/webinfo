@@ -3,7 +3,7 @@ layout: post
 title: 'Graph 1'
 ---
 
-<iframe src="/assets/graph.html" width="110%" height="500px"></iframe>
+<iframe src="/assets/graph.html" width="120%" height="470px"></iframe>
 
 ---
 
