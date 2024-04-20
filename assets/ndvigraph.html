@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대학 캠퍼스별 NDVI 지수</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #imageModal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        #imageModalContent {
+            margin: 15% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 700px;
+        }
+        #imageModalClose {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        #imageModalClose:hover,
+        #imageModalClose:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 600px; height: 400px;">
+        <canvas id="ndviChart"></canvas>
+    </div>
+    <div id="imageModal">
+        <div id="imageModalContent">
+            <span id="imageModalClose">&times;</span>
+            <img src="" id="popupImage" style="width: 100%;">
+        </div>
+    </div>
+    <script>
+        const ctx = document.getElementById('ndviChart').getContext('2d');
+        const ndviChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['건국대', '경희대', '고려대', '과기대', '삼육대', '서울대', '시립대', '연세대', '이화여대', '한양대'],
+                datasets: [{
+                    label: 'NDVI 지수',
+                    data: [0.302, 0.474, 0.340, 0.376, 0.492, 0.387, 0.402, 0.444, 0.397, 0.315],
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+
+        // 이미지 모달
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('popupImage');
+        const span = document.getElementById('imageModalClose');
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        ndviChart.canvas.onclick = function(e) {
+            const activePoints = ndviChart.getElementsAtEventForMode(e, 'nearest', { intersect: true }, true);
+            if (activePoints.length > 0) {
+                const firstPoint = activePoints[0];
+                const label = ndviChart.data.labels[firstPoint.index];
+                if (label === '경희대') {
+                    modalImg.src = "/assets/경희대 ndvi.png";
+                    modal.style.display = "block";
+                }
+            }
+        };
+    </script>
+</body>
+</html>
