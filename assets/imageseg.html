@@ -92,27 +92,6 @@
                 maintainAspectRatio: false
             }
         });
-
-        // 이미지 모달
-        const modal = document.getElementById('imageModal');
-        const modalImg = document.getElementById('popupImage');
-        const span = document.getElementById('imageModalClose');
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        ndviChart.canvas.onclick = function(e) {
-            const activePoints = ndviChart.getElementsAtEventForMode(e, 'nearest', { intersect: true }, true);
-            if (activePoints.length > 0) {
-                const firstPoint = activePoints[0];
-                const label = ndviChart.data.labels[firstPoint.index];
-                if (label === '경희대') {
-                    modalImg.src = "/assets/경희대 ndvi.png";
-                    modal.style.display = "block";
-                }
-            }
-        };
     </script>
 </body>
 </html>
