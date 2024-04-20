@@ -6,7 +6,7 @@ Computer Vision 기술을 활용한 Image Segmentation<br>
 
 
 
-#### Total NDVI Analysis
+#### Vegetation Segmentation Analysis
 [View Total NDVI Chart](https://jinuew.github.io/webinfo/assets/imageseg.html) 
 
 #### Analysis Details
