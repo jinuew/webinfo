@@ -1,9 +1,9 @@
-## Campus NDVI Analysis
+### Campus NDVI Analysis
 
-We have conducted an analysis of the Normalized Difference Vegetation Index (NDVI) across various campuses. Below is a dynamic graph showing our findings.
-
-[View NDVI Chart](https://jinuew.github.io/webinfo/assets/ndvi.html) (Click to view the interactive chart)
+[View NDVI Chart](https://jinuew.github.io/webinfo/assets/ndvi.html) 
 
 ### Analysis Details
 
-Here you can continue with more details or discussion about the data presented in the graph.
+GEE를 활용한 서울시 NDVI 지도 생성<br>
+대학교 공간데이터를 활용하여 캠퍼스 NDVI 생성<br>
+[View Example Code]
