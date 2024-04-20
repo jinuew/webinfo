@@ -6,4 +6,4 @@ GEE를 활용한 서울시 NDVI 지도 생성<br>
 [View NDVI Chart](https://jinuew.github.io/webinfo/assets/ndvi.html) 
 
 ### Analysis Details
-[View Example Code](https://github.com/jinuew/webinfo/blob/main/NDVI그래프.ipynb)
+[View Example Code](https://github.com/jinuew/webinfo/NDVI그래프.ipynb)
