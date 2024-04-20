@@ -3,9 +3,14 @@ layout: page
 title: Process
 permalink: /blog
 ---
+#### 스택
+Python<br>
+QGIS<br>
+HTML, JS<br>
 
-### Contact
-#### Contact
-경희대학교 박진우<br>
-[E-mail](mailto:p_jinwoo98@naver.com)을 통해 연락하실 수 있습니다<br>
-[Phone] 010-6365-2801
+#### 데이터 참고
+OSM API<br>
+Kaggle<br>
+Naver Map<br>
+Chat GPT<br>
+Github Jekyll<br>
