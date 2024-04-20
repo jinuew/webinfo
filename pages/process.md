@@ -1,5 +1,5 @@
 ---
-layout: process
-title: Process
+layout: blog
+title: Blog
 permalink: /blog
 ---
